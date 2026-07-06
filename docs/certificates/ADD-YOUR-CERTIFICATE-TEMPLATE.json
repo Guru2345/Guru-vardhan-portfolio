@@ -1,0 +1,83 @@
+{
+  "COPY_THIS_TEMPLATE_AND_ADD_TO_CERTIFICATES_JSON": {
+    "id": "cert-2024-001",
+    "title": "Your Certificate Name Here",
+    "issuer": "Platform/Institution Name (e.g., Coursera, Udemy, Google)",
+    "category": "Choose: Programming|Web Development|AI/ML|Tools|Soft Skills",
+    "date": "Month YYYY (e.g., July 2024)",
+    "description": "Brief description of what you learned in this course",
+    "skills": ["Skill1", "Skill2", "Skill3", "Skill4"],
+    "credentialId": "Your certificate ID/number",
+    "verificationUrl": "https://link-to-verify-certificate.com",
+    "certificateUrl": "/certificates/your-certificate-file.pdf",
+    "image": "/certificates/images/your-certificate-image.jpg",
+    "featured": true,
+    "status": "Completed"
+  },
+
+  "EXAMPLE_1_COURSERA": {
+    "id": "cert-2024-001",
+    "title": "Machine Learning Specialization",
+    "issuer": "Stanford University (Coursera)",
+    "category": "AI/ML",
+    "date": "July 2024",
+    "description": "Comprehensive machine learning course covering supervised learning, unsupervised learning, and neural networks",
+    "skills": ["Machine Learning", "Python", "TensorFlow", "Neural Networks", "Data Science"],
+    "credentialId": "ML-STANFORD-2024-001",
+    "verificationUrl": "https://coursera.org/verify/specialization/ML-STANFORD-2024-001",
+    "certificateUrl": "/certificates/ml-specialization.pdf",
+    "image": "/certificates/images/ml-cert.jpg",
+    "featured": true,
+    "status": "Completed"
+  },
+
+  "EXAMPLE_2_FREECODECAMP": {
+    "id": "cert-2024-002", 
+    "title": "JavaScript Algorithms and Data Structures",
+    "issuer": "FreeCodeCamp",
+    "category": "Programming",
+    "date": "June 2024",
+    "description": "Advanced JavaScript concepts including ES6+, algorithms, data structures, and functional programming",
+    "skills": ["JavaScript", "ES6+", "Algorithms", "Data Structures", "Functional Programming"],
+    "credentialId": "fcc-js-algo-2024",
+    "verificationUrl": "https://freecodecamp.org/certification/guruvardhan/javascript-algorithms-and-data-structures",
+    "certificateUrl": "/certificates/fcc-javascript.pdf",
+    "image": "/certificates/images/fcc-js.jpg",
+    "featured": true,
+    "status": "Completed"
+  },
+
+  "EXAMPLE_3_GOOGLE": {
+    "id": "cert-2024-003",
+    "title": "Google Cloud Digital Leader",
+    "issuer": "Google Cloud",
+    "category": "Tools",
+    "date": "August 2024", 
+    "description": "Cloud computing fundamentals, Google Cloud services, and digital transformation strategies",
+    "skills": ["Cloud Computing", "Google Cloud Platform", "Digital Transformation", "Cloud Security"],
+    "credentialId": "GC-DL-2024-003",
+    "verificationUrl": "https://google.com/verify/GC-DL-2024-003",
+    "certificateUrl": "/certificates/google-cloud-leader.pdf", 
+    "image": "/certificates/images/google-cloud.jpg",
+    "featured": false,
+    "status": "Completed"
+  },
+
+  "INSTRUCTIONS": {
+    "STEP_1": "Copy one of the examples above",
+    "STEP_2": "Customize it with your certificate details", 
+    "STEP_3": "Add it to the 'certificates' array in certificates.json",
+    "STEP_4": "Remember to add comma between certificates",
+    "STEP_5": "Save the file and refresh your portfolio",
+    
+    "CATEGORIES": ["Programming", "Web Development", "AI/ML", "Tools", "Soft Skills"],
+    "STATUS_OPTIONS": ["Completed", "In Progress", "Planned"],
+    
+    "FILE_PATHS": {
+      "PDF": "Save PDFs to: c:\\prortfol\\public\\certificates\\your-file.pdf",
+      "IMAGES": "Save images to: c:\\prortfol\\public\\certificates\\images\\your-image.jpg",
+      "JSON_PATH_PDF": "/certificates/your-file.pdf", 
+      "JSON_PATH_IMAGE": "/certificates/images/your-image.jpg"
+    }
+  }
+}
