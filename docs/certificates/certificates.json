@@ -1,0 +1,10 @@
+{
+  "certificates": [
+  ],
+  "lastUpdated": "2024-07-05T15:45:00Z",
+  "autoSync": {
+    "enabled": true,
+    "pdfAutoDetection": true,
+    "sources": []
+  }
+}

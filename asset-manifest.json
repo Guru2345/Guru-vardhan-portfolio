@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/Guru-vardhan-portfolio/static/css/main.e2da5892.css",
+    "main.js": "/Guru-vardhan-portfolio/static/js/main.ebd02d48.js",
+    "index.html": "/Guru-vardhan-portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.e2da5892.css",
+    "static/js/main.ebd02d48.js"
+  ]
+}
